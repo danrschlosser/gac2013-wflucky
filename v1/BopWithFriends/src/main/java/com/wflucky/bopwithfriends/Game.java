@@ -39,8 +39,6 @@ import java.util.HashMap;
  * - method that will take a string/int representing the gesture and call
  *   appropriate method for it (to avoid repetition of code) - will implement once I have some gestures available
  */
-
-
 public class Game extends Activity {
 
     private int type;
@@ -76,20 +74,18 @@ public class Game extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // currentGame.onCreate(savedInstanceState);
+        currentGame.onCreate(savedInstanceState);
     }
 
     /**
      * called by specific game when it has been completed.
      * Hashmap< Rank or Score, player name>
      * calls scoreboard
-     * probably does other stuff. Won't know until scoreboard framework is kinda known
      * @param playerRanks
      */
     public void gameOver(HashMap<Integer, String> playerRanks){
         Scoreboard scoreboard = new Scoreboard(playerRanks);
     }
-
 
     public void setGameOver(){
        gameOver = true;

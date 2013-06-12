@@ -18,7 +18,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -55,6 +54,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -64,11 +64,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Choose.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java">
+      <file leaf-file-name="Death.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Death.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
+            <state line="33" column="55" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,34 +78,49 @@
       <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="89" column="20" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1545">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeathHost.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/DeathHost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="3" selection-start="181" selection-end="181" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="900">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotPotato.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="28" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="705">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="9" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+      <file leaf-file-name="HotPotatoHost.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotatoHost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11070111" vertical-offset="0" max-vertical-offset="542">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lobby.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scoreboard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="30" column="28" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -120,17 +137,22 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java" />
-        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/Death.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Timer.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/DeathHost.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Death.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotato.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotatoHost.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="690" />
+    <option name="width" value="1276" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,6 +180,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,6 +209,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gac2013-wflucky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gac2013-wflucky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -196,20 +251,50 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wflucky.bopwithfriends" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wflucky.bopwithfriends" />
+    </key>
+  </component>
   <component name="RunManager" selected="Android Application.main">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -315,6 +400,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34591606-270b-4d35-a978-5a970f821919" name="Default" comment="" />
@@ -324,8 +426,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1280" height="690" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1276" height="778" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -341,7 +443,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -414,36 +516,127 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="11" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
+        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="405">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="6" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11070111" vertical-offset="0" max-vertical-offset="542">
+        <state line="17" column="38" selection-start="432" selection-end="432" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="130" selection-end="130" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="630">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.26190478" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Death.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="55" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="20" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1545">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="705">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/HotPotatoHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/DeathHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="181" selection-end="181" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="900">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
