@@ -7,11 +7,41 @@
   </component>
   <component name="AndroidLayouts">
     <shared>
+<<<<<<< HEAD
       <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="wflucky" />
+=======
+      <config>
+        <target>android-17</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_lobby.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_main.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_scoreboard.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34591606-270b-4d35-a978-5a970f821919" name="Default" comment="" />
@@ -68,6 +98,53 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java" line="25" class="com.wflucky.bopwithfriends.Main" package="com.wflucky.bopwithfriends">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java" line="32" class="com.wflucky.bopwithfriends.Main" package="com.wflucky.bopwithfriends">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java" line="45" class="com.wflucky.bopwithfriends.Main$2" package="com.wflucky.bopwithfriends">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,6 +154,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,10 +174,44 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
+=======
+      <file leaf-file-name="activity_game.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_game.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_lobby.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_lobby.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="33" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-4.4444447" vertical-offset="285" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
+              <folding>
+                <marker date="1371064484000" expanded="true" signature="436:465" placeholder="/**...*/" />
+              </folding>
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_game.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_game.xml">
           <provider editor-type-id="android-designer">
@@ -107,11 +219,18 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+=======
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/build/manifests/release/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="315">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer">
@@ -119,33 +238,87 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="26" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="450">
+=======
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="38" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" vertical-offset="831" max-vertical-offset="1455">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1131#1460#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1505#1836#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scoreboard.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3962264" vertical-offset="0" max-vertical-offset="265">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WiFiDirectBroadcastReceiver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="12" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="990">
+=======
+      <file leaf-file-name="Choose.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="50" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="300">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="38" column="77" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.8423818" vertical-offset="89" max-vertical-offset="750">
+=======
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="66" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+              <folding>
+                <element signature="e#561#579#0" expanded="true" />
+                <element signature="e#725#743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17190">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Scoreboard.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+=======
+      <file leaf-file-name="Lobby.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
               <folding />
             </state>
           </provider>
@@ -161,6 +334,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WifiDirectBroadcastReceiver.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/DeviceListFragment.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_game.xml" />
@@ -168,13 +342,29 @@
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java" />
         <option value="$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml" />
+=======
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_scoreboard.xml" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_lobby.xml" />
+        <option value="$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="719" />
+=======
+    <option name="x" value="118" />
+    <option name="y" value="42" />
+    <option name="width" value="1160" />
+    <option name="height" value="680" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,7 +393,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,10 +463,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -286,11 +477,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+=======
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d3c2630400a0e" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="emNexus7" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+<<<<<<< HEAD
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -299,6 +504,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BopWithFriends/src/main/res/layout" />
     </key>
+=======
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
   </component>
   <component name="RunManager" selected="Android Application.main">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -395,7 +604,11 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+<<<<<<< HEAD
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+=======
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -426,6 +639,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34591606-270b-4d35-a978-5a970f821919" name="Default" comment="" />
@@ -435,12 +665,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="22" width="1280" height="719" extended-state="6" />
     <editor active="true" />
+=======
+    <frame x="118" y="42" width="1160" height="680" extended-state="0" />
+    <editor active="false" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -448,18 +684,37 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43739566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34622303" sideWeight="0.5232143" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25852782" sideWeight="0.27321428" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41923776" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47678572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25852782" sideWeight="0.5232143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.34891486" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -496,7 +751,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -525,6 +780,64 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="975">
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_scoreboard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="51" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="435">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1460#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1505#1836#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="900">
+=======
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="5265" selection-end="5265" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="1920">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="645">
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/build/manifests/release/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="315">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="975">
@@ -544,42 +857,54 @@
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="645">
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_choose.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_scoreboard.xml">
+      <provider editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17190">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="975">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="25" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="975">
+        <state line="7" column="66" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#561#579#0" expanded="true" />
+            <element signature="e#725#743#0" expanded="true" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="25" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="900">
@@ -620,26 +945,76 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_game.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/res/layout/activity_lobby.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-4.4444447" vertical-offset="285" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Lobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
+          <folding>
+            <marker date="1371064484000" expanded="true" signature="436:465" placeholder="/**...*/" />
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Choose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="50" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="300">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/WiFiDirectBroadcastReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="12" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="990">
@@ -650,6 +1025,24 @@
     <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="77" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.8423818" vertical-offset="89" max-vertical-offset="750">
+=======
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0" vertical-offset="831" max-vertical-offset="1455">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1460#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1505#1836#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BopWithFriends/src/main/java/com/wflucky/bopwithfriends/Scoreboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3962264" vertical-offset="0" max-vertical-offset="265">
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <folding />
         </state>
       </provider>
@@ -660,7 +1053,10 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+<<<<<<< HEAD
           <last-edited>unnamed</last-edited>
+=======
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -695,7 +1091,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>1.7</last-edited>
+=======
+          <last-edited>Android SDK</last-edited>
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -720,7 +1120,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>Android 4.2.2</last-edited>
+=======
+          <last-edited>Android SDK</last-edited>
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -732,7 +1136,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>gradle-wrapper</last-edited>
+=======
+          <last-edited>android-support-v4</last-edited>
+>>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
           <splitter-proportions>
             <option name="proportions">
               <list>
