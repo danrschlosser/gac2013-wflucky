@@ -31,17 +31,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Choose"
-<<<<<<< HEAD
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name=".Lobby"
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name=".Scoreboard"
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name=".Game"
-                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/><![CDATA[/>
-        />
-    ]]>
-=======
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
         <activity android:name=".Lobby"
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
@@ -49,7 +38,6 @@
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
         <activity android:name=".Game"
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
->>>>>>> 00765940c145e2cedde7e86048195af7bec6af1b
     </application>
 
 </manifest>
