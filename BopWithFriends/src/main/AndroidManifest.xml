@@ -4,7 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-<<<<<<< HEAD
     <uses-sdk android:minSdkVersion="14"
           android:targetSdkVersion="16" />
 
@@ -13,15 +12,8 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-=======
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
-
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
->>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
 
     <application
         android:allowBackup="true"
@@ -39,6 +31,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Choose"
+<<<<<<< HEAD
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
         <activity android:name=".Lobby"
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
@@ -48,6 +41,15 @@
                   android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/><![CDATA[/>
         />
     ]]>
+=======
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".Lobby"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".Scoreboard"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".Game"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+>>>>>>> 00765940c145e2cedde7e86048195af7bec6af1b
     </application>
 
 </manifest>

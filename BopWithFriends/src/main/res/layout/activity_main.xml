@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,19 +12,6 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
-            android:text="Join Game"
-            android:id="@+id/join_game_btn"
-            android:onClick="onClickJoinGame"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Create Game"
-            android:id="@+id/create_game_btn"
-            android:onClick="onClickCreateGame"/>
-
-</LinearLayout>
-=======
             android:text="Join"
             android:id="@+id/button_host"
             android:onClick="joinGame"
@@ -48,4 +35,3 @@
             android:minWidth="400dip"
             android:textSize="40dip"/>
 </RelativeLayout>
->>>>>>> 9d5817fc1f513c8de92ceba61eb38fadf6ec2602
