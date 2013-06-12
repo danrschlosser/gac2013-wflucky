@@ -9,5 +9,8 @@ import android.os.Bundle;
 public class Choose extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //TODO:  Detect available hosts and present choices to user
+        //TODO:  After selecting host, go to Lobby
     }
 }
