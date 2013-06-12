@@ -54,6 +54,7 @@ public class Game extends Activity {
      * Type is handed down when game is created. Let's go with 0 for death and 1 for hot potato.
      * Players may be changed form Strings to player objects if needed in the future. First player
      * must be the host (index = 0)
+     * Might not be given players but will pull them from the UI text
      * @param type
      * @param players
      */
