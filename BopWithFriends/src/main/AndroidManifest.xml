@@ -4,9 +4,15 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
+    <uses-sdk android:minSdkVersion="14"
+          android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
     <application
         android:allowBackup="true"
@@ -14,6 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             android:name="com.wflucky.bopwithfriends.Main"
             android:label="@string/app_name" >
             <intent-filter>
@@ -22,10 +29,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Choose"/>
-        <activity android:name=".Lobby"/>
-        <activity android:name=".Scoreboard"/>
-        <activity android:name=".Game"/>
+        <activity android:name=".Choose"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">/>
+        <activity android:name=".Lobby"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">/>
+        <activity android:name=".Scoreboard"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">/>
+        <activity android:name=".Game"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"><![CDATA[/>
+        />
+    ]]>
     </application>
 
 </manifest>
