@@ -7,29 +7,38 @@ import java.util.Random;
  */
 public enum Gestures {
 
-    SWIPE_UP("Swipe Up"),
-    SWIPE_DOWN("Swipe Down"),
-    SWIPE_LEFT("Swipe Left"),
-    SWIPE_RIGHT("Swipe Right"),
-    TAP("Tap"),
-    DTAP("Double Tap"),
-    LONGPRESS("Long Tap");
+        SWIPE_UP("Swipe Up", false),
+        SWIPE_DOWN("Swipe Down", false),
+        SWIPE_LEFT("Swipe Left", false),
+        SWIPE_RIGHT("Swipe Right", false),
+        TAP("Tap", false),
+        DTAP("Double Tap", false),
+        LONGPRESS("Long Press", false),
+        UP_DOWN("Up and Down", true),
+        SIDEWAYS("Side to Side", true);
 
-    private final String name;
+        private final String name;
+        private final boolean hasWatch;
 
-    Gestures(String gestureName) {
-        this.name = gestureName;
-    }
+        Gestures(String gestureName, boolean hasWatch) {
+            this.name = gestureName;
+            this.hasWatch = hasWatch;
+        }
 
-    private static final Random RANDOM = new Random();
-    private static final Gestures[] VALUES = Gestures.values();
-    private static final int SIZE = VALUES.length;
+        private static final Random RANDOM = new Random();
+        private static final Gestures[] VALUES = Gestures.values();
+        private static final int SIZE = VALUES.length;
 
-    public static Gestures getRandom() {
-        return VALUES[RANDOM.nextInt(SIZE)];
-    }
-    @Override
-    public String toString() {
-        return this.name + "!";
-    }
+        public static Gestures getRandom() {
+            return VALUES[RANDOM.nextInt(SIZE)];
+        }
+
+        public boolean needsWatch() {
+            return this.hasWatch;
+        }
+
+        @Override
+        public String toString() {
+            return this.name + "!";
+        }
 }

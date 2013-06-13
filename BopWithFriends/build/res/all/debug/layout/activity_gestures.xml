@@ -18,15 +18,13 @@
             android:fontFamily="Geneva, Arial, Helvetica, sans-serif"
             />
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="310sp"
+            android:gravity="center"
             android:id="@+id/score"
-            android:paddingRight="30sp"
-            android:paddingTop="30sp"
-            android:layout_alignParentRight="true"
             android:text="0"
-            android:textColor="#fff"
+            android:textColor="#22ffffff"
             />
 
 </RelativeLayout>

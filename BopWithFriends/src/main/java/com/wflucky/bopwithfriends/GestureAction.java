@@ -1,7 +1,15 @@
 package com.wflucky.bopwithfriends;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -16,12 +24,29 @@ import static com.wflucky.bopwithfriends.Gestures.*;
  */
 public class GestureAction extends Activity
         implements GestureDetector.OnGestureListener,
-        GestureDetector.OnDoubleTapListener {
+        GestureDetector.OnDoubleTapListener, SensorEventListener {
 
     private GestureDetector detector;
     private static final String TAG = "GestureExample";
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
+
+    private float mLastX, mLastY, mLastZ;
+    private float deltaX, deltaY, deltaZ;
+    private boolean mInitialized;
+
+    private SensorManager mSensorManager;
+
+    private Sensor mAccelerometer;
+
+    private final float THRESHOLD = (float) 8.5;
+    private final float THRESHOLD_Z = (float) 8.5;
+    private final long MAX_TIME = (long) 2000;
+    private long startTime;
+    private long timePassed;
+    private boolean watchRunning;
+
+
     Gestures target;
     private TextView canvas;
     private TextView score;
@@ -31,6 +56,12 @@ public class GestureAction extends Activity
         setContentView(R.layout.activity_gestures);
         detector = new GestureDetector(this, this);
         detector.setOnDoubleTapListener(this);
+
+        mInitialized = false;
+        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+
         canvas = (TextView) findViewById(R.id.canvas);
         score = (TextView) findViewById(R.id.score);
         play();
@@ -41,9 +72,12 @@ public class GestureAction extends Activity
         Gestures next = Gestures.getRandom();
         canvas.setText(next.toString());
         target = next;
+        watchRunning = target.needsWatch();
+        startTime = System.currentTimeMillis();
     }
+
     public void failed(){
-        Intent intent = new Intent(GestureAction.this, FinalScore.class);
+        Intent intent = new Intent(this, FinalScore.class);
         intent.putExtra("FANTASTICSCORE", Integer.parseInt(score.getText().toString()));
         startActivity(intent);
         score.setText("0");
@@ -61,6 +95,7 @@ public class GestureAction extends Activity
         if ((e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY)) {
             if (target == SWIPE_LEFT) {
                 incrementScore();
+                playSound();
                 play();
             } else {
                 failed();
@@ -69,6 +104,7 @@ public class GestureAction extends Activity
         } else if ((e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY)) {
             if (target == SWIPE_RIGHT) {
                 incrementScore();
+                playSound();
                 play();
             } else {
                 failed();
@@ -77,6 +113,7 @@ public class GestureAction extends Activity
         } else if ((e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY)) {
             if (target == SWIPE_UP) {
                 incrementScore();
+                playSound();
                 play();
             } else {
                 failed();
@@ -85,6 +122,7 @@ public class GestureAction extends Activity
         }else if ((e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY)) {
             if (target == SWIPE_DOWN) {
                 incrementScore();
+                playSound();
                 play();
             } else {
                 failed();
@@ -98,6 +136,7 @@ public class GestureAction extends Activity
     public void onLongPress(MotionEvent e) {
         if (target == LONGPRESS) {
             incrementScore();
+            playSound();
             play();
         } else {
             failed();
@@ -119,6 +158,7 @@ public class GestureAction extends Activity
         Log.d(TAG, "onDoubleTap: " + e.toString());
         if (target == DTAP) {
             incrementScore();
+            playSound();
             play();
         } else {
             failed();
@@ -132,8 +172,9 @@ public class GestureAction extends Activity
     public boolean onSingleTapConfirmed(MotionEvent e) {
         Log.d(TAG, "onSingleTapConfirmed: " + e.toString());
         if (target == TAP | target == DTAP | target == LONGPRESS) {
-            play();
             incrementScore();
+            playSound();
+            play();
         } else {
             failed();
         }
@@ -143,7 +184,75 @@ public class GestureAction extends Activity
     public void incrementScore() {
         score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
         Toast t = Toast.makeText(this, "GLENN SAYS: SUCCESS!", 2);
-        t.setGravity(t.getGravity(), t.getXOffset(), t.getYOffset()+100);
+        t.setGravity(t.getGravity(), t.getXOffset(), t.getYOffset() + 100);
         t.show();
     }
+
+    public void playSound() {
+        try {
+            Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+            Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
+            r.play();
+        } catch (Exception e) {}
+    }
+
+    protected void onResume() {
+        super.onResume();
+        mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+    }
+    protected void onPause() {
+        super.onPause();
+        mSensorManager.unregisterListener(this);
+    }
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+        //ignore for now
+    }
+
+    public void onSensorChanged (SensorEvent event){
+        float x = event.values[0];
+        float y = event.values[1];
+        float z = event.values[2];
+        if (!mInitialized) {
+            mLastX = x;
+            mLastY = y;
+            mLastZ = z;
+            mInitialized = true;
+        } else {
+            deltaX = Math.abs(mLastX - x);
+            deltaY = Math.abs(mLastY - y);
+            deltaZ = Math.abs(mLastZ - z);
+        }
+
+
+        if (watchRunning) {
+            timePassed = System.currentTimeMillis() - startTime;
+            if (timePassed > MAX_TIME) {
+                watchRunning = false;
+                timePassed = 0;
+                playSound();
+                play();
+            }
+            if (deltaX > THRESHOLD){
+                onSideways();
+            } else if (deltaZ > THRESHOLD){
+                onUpDown();
+            }
+        }
+    }
+
+
+    public void onSideways(){
+        if (target == SIDEWAYS) {
+            incrementScore();
+        }
+    }
+
+    public void onUpDown(){
+        if (target == UP_DOWN) {
+            incrementScore();
+        }
+    }
+
+
 }
