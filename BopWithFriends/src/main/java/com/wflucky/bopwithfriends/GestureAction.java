@@ -15,7 +15,6 @@ import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import static com.wflucky.bopwithfriends.Gestures.*;
 
@@ -183,9 +182,6 @@ public class GestureAction extends Activity
 
     public void incrementScore() {
         score.setText("" + (Integer.parseInt(score.getText().toString()) + 1));
-        Toast t = Toast.makeText(this, "GLENN SAYS: SUCCESS!", 2);
-        t.setGravity(t.getGravity(), t.getXOffset(), t.getYOffset() + 100);
-        t.show();
     }
 
     public void playSound() {
