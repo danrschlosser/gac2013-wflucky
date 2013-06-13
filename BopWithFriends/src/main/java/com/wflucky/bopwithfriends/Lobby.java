@@ -22,7 +22,7 @@ public class Lobby extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lobby);
         adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1,
+                android.R.layout.simple_list_item_2,
                 //R.layout.activity_lobby,
                 //android.R.id.empty,
                 listItems);

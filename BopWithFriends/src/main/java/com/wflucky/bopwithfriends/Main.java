@@ -51,8 +51,7 @@ public class Main extends Activity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Pick a game mode");
-        builder
-                .setNegativeButton("Hot Potato", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Hot Potato", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
