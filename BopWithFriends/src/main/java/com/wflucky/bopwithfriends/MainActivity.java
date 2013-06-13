@@ -22,6 +22,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
+    private boolean needsWatch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,7 @@ public class MainActivity extends Activity {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
                         textView.setText(hostName + "'s Hot Potato Game");
+                        needsWatch = true;
                     }
                 })
                 .setPositiveButton("Sudden Death", new DialogInterface.OnClickListener() {
@@ -55,6 +57,7 @@ public class MainActivity extends Activity {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
                         textView.setText(hostName + "'s Sudden Death Game");
+                        needsWatch = false;
                     }
                 })
                 .create().show();
@@ -62,6 +65,7 @@ public class MainActivity extends Activity {
 
     public void play(View view) {
         Intent intent = new Intent(this, GestureAction.class);
+        intent.putExtra("TimerGame", needsWatch);
         startActivity(intent);
     }
 

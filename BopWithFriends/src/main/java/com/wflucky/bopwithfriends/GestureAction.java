@@ -39,11 +39,15 @@ public class GestureAction extends Activity
     private Sensor mAccelerometer;
 
     private final float THRESHOLD = (float) 8.5;
-    private final float THRESHOLD_Z = (float) 8.5;
     private final long MAX_TIME = (long) 2000;
     private long startTime;
     private long timePassed;
     private boolean watchRunning;
+
+    private boolean timedGame;
+    private long gameStartTime;
+    private long gameTimePassed;
+    private final long TOTAL_GAME_TIME = (long) 10000;
 
 
     Gestures target;
@@ -63,11 +67,22 @@ public class GestureAction extends Activity
 
         canvas = (TextView) findViewById(R.id.canvas);
         score = (TextView) findViewById(R.id.score);
+        Intent intent = getIntent();
+        timedGame = intent.getBooleanExtra("TimerGame", false);
+        if (timedGame) {
+            gameStartTime = System.currentTimeMillis();
+        }
         play();
     }
 
 
     public void play(){
+        if (timedGame) {
+            gameTimePassed = System.currentTimeMillis() - gameStartTime;
+            if (gameTimePassed > TOTAL_GAME_TIME) {
+                failed("Out of Time");
+            }
+        }
         Gestures next = Gestures.getRandom();
         canvas.setText(next.toString());
         target = next;
@@ -75,9 +90,10 @@ public class GestureAction extends Activity
         startTime = System.currentTimeMillis();
     }
 
-    public void failed(){
+    public void failed(String msg){
         Intent intent = new Intent(this, FinalScore.class);
         intent.putExtra("FANTASTICSCORE", Integer.parseInt(score.getText().toString()));
+        intent.putExtra("ENDMESSAGE", msg);
         startActivity(intent);
         score.setText("0");
     }
@@ -97,7 +113,7 @@ public class GestureAction extends Activity
                 playSound();
                 play();
             } else {
-                failed();
+                failed("Game Over");
             }
             return true;
         } else if ((e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY)) {
@@ -106,7 +122,7 @@ public class GestureAction extends Activity
                 playSound();
                 play();
             } else {
-                failed();
+                failed("Game Over");
             }
             return true;
         } else if ((e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY)) {
@@ -115,7 +131,7 @@ public class GestureAction extends Activity
                 playSound();
                 play();
             } else {
-                failed();
+                failed("Game Over");
             }
             return true;
         }else if ((e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE) && (Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY)) {
@@ -124,7 +140,7 @@ public class GestureAction extends Activity
                 playSound();
                 play();
             } else {
-                failed();
+                failed("Game Over");
             }
             return true;
         } else {
@@ -138,7 +154,7 @@ public class GestureAction extends Activity
             playSound();
             play();
         } else {
-            failed();
+            failed("Game Over");
         }
         Log.d(TAG, "onLongPress: " + e.toString());
     }
@@ -160,7 +176,7 @@ public class GestureAction extends Activity
             playSound();
             play();
         } else {
-            failed();
+            failed("Game Over");
         }
         return true;
     }
@@ -175,7 +191,7 @@ public class GestureAction extends Activity
             playSound();
             play();
         } else {
-            failed();
+            failed("Game Over");
         }
         return true;
     }

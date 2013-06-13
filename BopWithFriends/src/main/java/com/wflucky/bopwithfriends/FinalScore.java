@@ -16,11 +16,14 @@ public class FinalScore extends Activity{
         setContentView(R.layout.final_score);
         TextView finalScore = (TextView) findViewById(R.id.final_score);
         Intent intent = getIntent();
-        finalScore.setText("Score: " + intent.getIntExtra("FANTASTICSCORE", 12345));
+        String endMsg = intent.getStringExtra("ENDMESSAGE");
+        finalScore.setText(endMsg + "! \n" +
+                "Score:" + intent.getIntExtra("FANTASTICSCORE", 12345));
     }
 
     public void replay(View view) {
-        finish();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 

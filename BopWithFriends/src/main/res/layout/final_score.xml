@@ -19,7 +19,8 @@
                 android:text="@string/hello_world"
                 android:textSize="50sp"
                 android:textColor="#ee3333"
-                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
                 />
 
         <Button
