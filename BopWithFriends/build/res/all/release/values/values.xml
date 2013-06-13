@@ -5,8 +5,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <string name="action_settings">Settings</string>
-    <string name="app_name">BopWithFriends</string>
+    <string name="app_name">Bop With Friends</string>
     <string name="hello_world">Hello world!</string>
+    <string name="replay">Play Again?</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
