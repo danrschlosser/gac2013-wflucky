@@ -7,6 +7,7 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".Main"
+                android:background="#000"
                 android:gravity="center">
 
     <Button
@@ -20,6 +21,8 @@
             android:minHeight="100dip"
             android:minWidth="400dip"
             android:gravity="center"
+            android:textColor="#fff"
+            android:background="#33222222"
             android:textSize="40dip"/>
 
     <Button
@@ -33,5 +36,7 @@
             android:onClick="hostGame"
             android:minHeight="100dip"
             android:minWidth="400dip"
+            android:textColor="#fff"
+            android:background="#33222222"
             android:textSize="40dip"/>
 </RelativeLayout>
