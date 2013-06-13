@@ -14,8 +14,8 @@ public enum Gestures {
         TAP("Tap", false),
         DTAP("Double Tap", false),
         LONGPRESS("Long Press", false),
-        UP_DOWN("Up and Down", true),
-        SIDEWAYS("Side to Side", true);
+        UP_DOWN("Shake Up and Down", true),
+        SIDEWAYS("Shake Side to Side", true);
 
         private final String name;
         private final boolean hasWatch;
