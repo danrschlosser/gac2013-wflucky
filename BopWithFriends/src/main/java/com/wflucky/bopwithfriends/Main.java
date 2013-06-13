@@ -49,8 +49,6 @@ public class Main extends Activity {
 
     public void hostGame(View view) {
 
-        /////////////DBC//////////////
-        final CharSequence[] items = {"Hot Potato", "Sudden Death"};
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Pick a game mode");
         builder
@@ -69,7 +67,6 @@ public class Main extends Activity {
                     }
                 })
                 .create().show();
-        /////////////DBC//////////////
     }
 
     private String getName() {

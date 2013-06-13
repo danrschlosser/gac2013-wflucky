@@ -2,69 +2,69 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res" >
+        <source path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_choose"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_choose.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_choose.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_game"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_game.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_game.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_gestures"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_gestures.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_gestures.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_lobby"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_lobby.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_lobby.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_main.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_scoreboard"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/activity_scoreboard.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/activity_scoreboard.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="final_score"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/layout/final_score.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/layout/final_score.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/menu/main.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values/dimens.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -72,7 +72,7 @@
                 </dimen>
             </file>
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values/strings.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="replay" >Play Again?
                 </string>
@@ -84,7 +84,7 @@
                 </string>
             </file>
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values/styles.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -106,16 +106,16 @@
                 </style>
             </file>
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values-sw600dp/dimens.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values-sw600dp/dimens.xml"
                 qualifiers="sw600dp" />
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values-v11/styles.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -126,7 +126,7 @@
                 </style>
             </file>
             <file
-                path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/main/res/values-v14/styles.xml"
+                path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -137,10 +137,10 @@
                 </style>
             </file>
         </source>
-        <source path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/build/res/rs/release" />
+        <source path="/Users/demouser/Desktop/studio-git/BopWithFriends/build/res/rs/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/Users/demouser/Desktop/Android/BopWithFriends/BopWithFriends/src/release/res" />
+        <source path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/release/res" />
     </dataSet>
 
 </merger>

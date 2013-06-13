@@ -36,9 +36,10 @@ public class MainActivity extends Activity {
     }
 
     public void hostGame(View view) {
-
-        /////////////DBC//////////////
+        final String hostName = getName();
+        final Intent intent = new Intent(this, Lobby.class);
         final CharSequence[] items = {"Hot Potato", "Sudden Death"};
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Pick a game mode");
         builder
@@ -46,18 +47,17 @@ public class MainActivity extends Activity {
                     public void onClick(DialogInterface dialog, int id) {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
-                        textView.setText(getName() + "'s Hot Potato Game");
+                        textView.setText(hostName + "'s Hot Potato Game");
                     }
                 })
                 .setPositiveButton("Sudden Death", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
-                        textView.setText(getName() + "'s Sudden Death Game");
+                        textView.setText(hostName + "'s Sudden Death Game");
                     }
                 })
                 .create().show();
-        /////////////DBC//////////////
     }
 
     public void play(View view) {

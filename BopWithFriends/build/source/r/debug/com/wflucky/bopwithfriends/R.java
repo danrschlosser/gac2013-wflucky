@@ -19,12 +19,12 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080008;
-        public static final int button=0x7f080004;
-        public static final int button_host=0x7f080005;
-        public static final int button_join=0x7f080006;
+        public static final int button=0x7f080003;
+        public static final int button_host=0x7f080004;
+        public static final int button_join=0x7f080005;
         public static final int canvas=0x7f080000;
         public static final int final_score=0x7f080007;
-        public static final int listView=0x7f080003;
+        public static final int listView=0x7f080006;
         public static final int score=0x7f080001;
         public static final int textView=0x7f080002;
     }
