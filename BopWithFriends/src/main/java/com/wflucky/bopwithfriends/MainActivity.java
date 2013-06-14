@@ -15,6 +15,7 @@ import android.provider.ContactsContract;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ import java.util.List;
 public class MainActivity extends Activity {
 
     private boolean needsWatch;
+    private int potatoTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_lobby);
         Button button=(Button)findViewById(R.id.button);
         button.setVisibility(View.INVISIBLE);
+        NumberPicker picker = (NumberPicker)findViewById(R.id.numberPicker);
+        picker.setVisibility(View.INVISIBLE);
     }
 
     public void hostGame(View view) {
@@ -57,6 +61,8 @@ public class MainActivity extends Activity {
                         setContentView(R.layout.activity_lobby);
                         TextView textView = (TextView)findViewById(R.id.textView);
                         textView.setText(hostName + "'s Sudden Death Game");
+                        NumberPicker picker = (NumberPicker)findViewById(R.id.numberPicker);
+                        picker.setVisibility(View.INVISIBLE);
                         needsWatch = false;
                     }
                 })
@@ -64,7 +70,11 @@ public class MainActivity extends Activity {
     }
 
     public void play(View view) {
+        NumberPicker picker = (NumberPicker)findViewById(R.id.numberPicker);
+        potatoTime = picker.getValue();
+
         Intent intent = new Intent(this, GestureAction.class);
+        intent.putExtra("PotatoTime", potatoTime);
         intent.putExtra("TimerGame", needsWatch);
         startActivity(intent);
     }

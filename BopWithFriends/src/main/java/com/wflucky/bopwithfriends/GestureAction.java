@@ -47,7 +47,7 @@ public class GestureAction extends Activity
     private boolean timedGame;
     private long gameStartTime;
     private long gameTimePassed;
-    private final long TOTAL_GAME_TIME = (long) 10000;
+    private long totalGameTime;
 
 
     Gestures target;
@@ -72,6 +72,7 @@ public class GestureAction extends Activity
         if (timedGame) {
             gameStartTime = System.currentTimeMillis();
         }
+        totalGameTime = intent.getIntExtra("PotatoTime", 10) * 1000;
         play();
     }
 
@@ -79,7 +80,7 @@ public class GestureAction extends Activity
     public void play(){
         if (timedGame) {
             gameTimePassed = System.currentTimeMillis() - gameStartTime;
-            if (gameTimePassed > TOTAL_GAME_TIME) {
+            if (gameTimePassed > totalGameTime) {
                 failed("Out of Time");
             }
         }
