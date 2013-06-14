@@ -30,8 +30,10 @@
                 android:layout_marginTop="20sp"
                 android:text="@string/replay"
                 android:layout_gravity="center_horizontal"
-                android:background="#01ffffff"
+                android:background="#55888888"
                 android:onClick="replay"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
                 />
 
     </LinearLayout>
