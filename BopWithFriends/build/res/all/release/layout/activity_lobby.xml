@@ -48,5 +48,19 @@
             android:layout_alignLeft="@+id/textView"
             android:background="#22333333"
             android:textColor="#fff"
+            android:textSize="40sp"
+            android:padding="10sp"
+            android:layout_marginBottom="30sp"
             android:layout_alignRight="@+id/textView"/>
+
+    <com.wflucky.bopwithfriends.ConstrainedNumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            min="10"
+            max="60"
+            android:background="#ffffff"/>
+
 </RelativeLayout>

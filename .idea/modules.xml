@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BopWithFriends/BopWithFriends.iml" filepath="$PROJECT_DIR$/BopWithFriends/BopWithFriends.iml" />
-      <module fileurl="file://$PROJECT_DIR$/studio-git.iml" filepath="$PROJECT_DIR$/studio-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BopWithFriendsProject.iml" filepath="$PROJECT_DIR$/BopWithFriendsProject.iml" />
     </modules>
   </component>
 </project>

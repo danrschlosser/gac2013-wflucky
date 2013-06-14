@@ -8,5 +8,9 @@
     <string name="hello_world" >Hello world!
     </string>
     <string name="replay" >Play Again?</string>
+    <string name="scoreboard" >See High Scores?
+    </string>
+    <string name="name" >
+    </string>
 
 </resources>

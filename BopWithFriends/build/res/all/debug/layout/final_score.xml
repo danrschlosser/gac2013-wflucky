@@ -33,5 +33,16 @@
                 android:onClick="replay"
                 />
 
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20sp"
+                android:text="@string/scoreboard"
+                android:layout_gravity="center_horizontal"
+                android:background="#01ffffff"
+                android:onClick="scoreboard"
+                />
+
     </LinearLayout>
 </LinearLayout>

@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/main/assets" />
+        <source path="/Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/assets" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/Users/demouser/Desktop/studio-git/BopWithFriends/src/release/assets" />
+        <source path="/Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/release/assets" />
     </dataSet>
 
 </merger>
