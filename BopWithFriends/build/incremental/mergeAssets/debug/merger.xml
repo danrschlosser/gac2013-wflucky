@@ -2,10 +2,17 @@
 <merger>
 
     <dataSet config="main" >
+<<<<<<< HEAD
         <source path="/Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/debug/assets" />
+=======
+        <source path="/Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/debug/assets" />
+>>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
     </dataSet>
 
 </merger>

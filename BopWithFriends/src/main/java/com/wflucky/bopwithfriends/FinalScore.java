@@ -44,6 +44,7 @@ public class FinalScore extends Activity{
 
         TextView finalScore = (TextView) findViewById(R.id.final_score);
         Intent intent = getIntent();
+<<<<<<< HEAD
         score = intent.getIntExtra("FANTASTICSCORE", 12345);
         time = System.currentTimeMillis();
 
@@ -64,10 +65,16 @@ public class FinalScore extends Activity{
 
     public void setName(String name){
         this.name = name;
+=======
+        String endMsg = intent.getStringExtra("ENDMESSAGE");
+        finalScore.setText(endMsg + "! \n" +
+                "Score:" + intent.getIntExtra("FANTASTICSCORE", 12345));
+>>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
     }
 
     public void replay(View view) {
-        finish();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     public void scoreboard(View view) {

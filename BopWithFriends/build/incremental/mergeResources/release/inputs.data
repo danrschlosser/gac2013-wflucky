@@ -1,6 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
+<<<<<<< HEAD
 1371187854000 2576 6dbc9423f0467ccfe0cc94e14d49f399d8720f69 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/layout/activity_lobby.xml
 1371158064000 381 b129b276e01126de5b3b753572ac67cbfc19454c /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/values-v14/styles.xml
 1371158064000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/values-sw720dp-land/dimens.xml
@@ -22,3 +23,24 @@
 1371171493000 147 67d30a92df7ed1167471ab71e816a4ae565d456b /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/values/color.xml
 1371158064000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/values/styles.xml
 1371158064000 12356 75154d4f6e93c8832a74d3c27c8cf0d44672ea3e /Users/demouser/working/BopWithFriendsProject/BopWithFriends/src/main/res/drawable-xhdpi/ic_launcher.png
+=======
+1371104832000 381 b129b276e01126de5b3b753572ac67cbfc19454c /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values-v14/styles.xml
+1371171735000 2576 6dbc9423f0467ccfe0cc94e14d49f399d8720f69 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_lobby.xml
+1371173191000 1807 64cb8c5c478db6ca69a4df4fdff36b34d3094b71 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_main.xml
+1371104832000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values/dimens.xml
+1371147964000 3675 9d9f6bfc6d09dbf01fd389b0bfcaac37d1f0d4eb /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/drawable-hdpi/ic_launcher.png
+1371173247000 1550 b673b5e6a331a83541fc784746af93a085010939 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/final_score.xml
+1371104832000 324 aa1f5f1723de9aee2669dc44a26fbc0ce776d35f /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values-v11/styles.xml
+1371104832000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values-sw600dp/dimens.xml
+1371147764000 7006 d3cb645bf8227bbb489f1f468bab7b6cef49a246 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/drawable-xxhdpi/ic_launcher.png
+1371147816000 5549 412a00595e1058acdbce70c08ab95d8dea61e03e /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/drawable-xhdpi/ic_launcher.png
+1371104832000 292 e59a540c64d94afa1b9ba4b9e047c44b48ebf34b /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values/strings.xml
+1371104832000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_game.xml
+1371104832000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values/styles.xml
+1371104832000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/menu/main.xml
+1371104832000 692 8f5eed6ae2b04992ec3a9ce00038b71b01e868d1 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_scoreboard.xml
+1371147896000 2412 c55680a3a5a4d8652bb14877dbb8054bafd73b19 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/drawable-mdpi/ic_launcher.png
+1371104832000 316 5347481dacd872eeb7f96be6c58e5f7eb59b2771 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_choose.xml
+1371162862000 1108 504f71dd2d0f5e6c52904b952f11efcf4567bb56 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/layout/activity_gestures.xml
+1371104832000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/demouser/Desktop/Android/studio-git/BopWithFriends/src/main/res/values-sw720dp-land/dimens.xml
+>>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
