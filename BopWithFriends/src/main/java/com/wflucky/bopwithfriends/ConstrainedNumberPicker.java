@@ -1,12 +1,6 @@
 package com.wflucky.bopwithfriends;
 
-<<<<<<< HEAD
 import android.content.Context;
-=======
-import android.annotation.TargetApi;
-import android.content.Context;
-import android.os.Build;
->>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
 import android.util.AttributeSet;
 import android.widget.NumberPicker;
 /**

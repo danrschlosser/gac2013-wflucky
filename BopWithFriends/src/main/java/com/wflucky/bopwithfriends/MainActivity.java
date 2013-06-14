@@ -14,13 +14,9 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-<<<<<<< HEAD
     public static String name;
-
-=======
     private boolean needsWatch;
     private int potatoTime;
->>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
