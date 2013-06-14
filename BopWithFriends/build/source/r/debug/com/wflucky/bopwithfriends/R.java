@@ -22,7 +22,6 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-<<<<<<< HEAD
         public static final int action_settings=0x7f09000f;
         public static final int button=0x7f090003;
         public static final int button_host=0x7f090005;
@@ -39,18 +38,6 @@ public final class R {
         public static final int score=0x7f090001;
         public static final int score_field=0x7f09000d;
         public static final int textView=0x7f090002;
-=======
-        public static final int action_settings=0x7f080009;
-        public static final int button=0x7f080003;
-        public static final int button_host=0x7f080005;
-        public static final int button_join=0x7f080006;
-        public static final int canvas=0x7f080000;
-        public static final int final_score=0x7f080008;
-        public static final int listView=0x7f080007;
-        public static final int numberPicker=0x7f080004;
-        public static final int score=0x7f080001;
-        public static final int textView=0x7f080002;
->>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
     }
     public static final class layout {
         public static final int activity_choose=0x7f030000;

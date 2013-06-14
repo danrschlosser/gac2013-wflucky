@@ -1,39 +1,20 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-<<<<<<< HEAD
-1371158180000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/values-sw720dp-land/values.xml
-1371158180000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/menu/main.xml
-1371159760000 1867 e4bf42a04d114896e591ece0efa81ea421b96a9c /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/final_score.xml
-1371158180000 7783 03172612ec7d8d2cc6295a185410c3e6501771aa /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/drawable-hdpi/ic_launcher.png
-1371188002000 1570 3dfc862d0937d69c6254b83d50d662d07cfd6bdb /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/activity_scoreboard.xml
-1371188002000 1392 b6611dec3a652ed7be835bc2894a9818f8795fcd /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/single_high_score.xml
-1371158180000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/values-v11/values.xml
-1371185114000 1016 312e4b4b66b98bf75c6540ad31fb8c39f67885b0 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/values/values.xml
-1371188002000 1108 504f71dd2d0f5e6c52904b952f11efcf4567bb56 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/activity_gestures.xml
-1371158180000 24780 6c2954bdacb8129ac00edfd084b98daf226518e3 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/drawable-xxhdpi/ic_launcher.png
-1371188002000 2576 6dbc9423f0467ccfe0cc94e14d49f399d8720f69 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/activity_lobby.xml
-1371158180000 316 5347481dacd872eeb7f96be6c58e5f7eb59b2771 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/activity_choose.xml
-1371188002000 1807 64cb8c5c478db6ca69a4df4fdff36b34d3094b71 /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/activity_main.xml
-1371158180000 12356 75154d4f6e93c8832a74d3c27c8cf0d44672ea3e /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/drawable-xhdpi/ic_launcher.png
-1371185346000 550 7987b67de40b91eeaa41c779bb00fdaa497c9b3c /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/layout/name_change.xml
-1371158180000 217 f02e000d05a079992d2dba18039216c1e6b8784f /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/values-v14/values.xml
-1371158180000 3760 9d45e7de00dac30e9738dc369dece2835bf9677e /Users/demouser/working/BopWithFriendsProject/BopWithFriends/build/res/all/release/drawable-mdpi/ic_launcher.png
-=======
-1371162413000 841 d0cd9cb8d0ebf266b15661e964d4c3e993c25c55 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/values/values.xml
+1371194402000 1016 312e4b4b66b98bf75c6540ad31fb8c39f67885b0 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/values/values.xml
 1371173201000 1807 64cb8c5c478db6ca69a4df4fdff36b34d3094b71 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_main.xml
 1371162890000 1108 504f71dd2d0f5e6c52904b952f11efcf4567bb56 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_gestures.xml
 1371162413000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/menu/main.xml
 1371172388000 2576 6dbc9423f0467ccfe0cc94e14d49f399d8720f69 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_lobby.xml
+1371194402000 1392 b6611dec3a652ed7be835bc2894a9818f8795fcd /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/single_high_score.xml
 1371162413000 217 f02e000d05a079992d2dba18039216c1e6b8784f /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/values-v14/values.xml
 1371162413000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/values-sw720dp-land/values.xml
-1371173254000 1550 b673b5e6a331a83541fc784746af93a085010939 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/final_score.xml
-1371162413000 692 8f5eed6ae2b04992ec3a9ce00038b71b01e868d1 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_scoreboard.xml
+1371194687000 2055 349bb86f751578aa930581c111cfd436108eb9a2 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/final_score.xml
+1371194402000 1570 3dfc862d0937d69c6254b83d50d662d07cfd6bdb /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_scoreboard.xml
 1371162413000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/values-v11/values.xml
-1371163001000 5549 412a00595e1058acdbce70c08ab95d8dea61e03e /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-xhdpi/ic_launcher.png
+1371196387000 3537 48273fd5514b6a405070972fd8da9d0e7cfe39d1 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-xhdpi/ic_launcher.png
 1371162413000 316 5347481dacd872eeb7f96be6c58e5f7eb59b2771 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_choose.xml
-1371163001000 7006 d3cb645bf8227bbb489f1f468bab7b6cef49a246 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-xxhdpi/ic_launcher.png
-1371162413000 276 a8c32eb9e696c4e873e4c319b57bdfd12f2eecda /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/activity_game.xml
-1371163001000 2412 c55680a3a5a4d8652bb14877dbb8054bafd73b19 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-mdpi/ic_launcher.png
-1371163001000 3675 9d9f6bfc6d09dbf01fd389b0bfcaac37d1f0d4eb /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-hdpi/ic_launcher.png
->>>>>>> 477b4e1c6b7cac8489fddee5f32d771f214cbc47
+1371196387000 3261 dc9e61f14f79c6ae975c87b5c6f922a12686349b /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-xxhdpi/ic_launcher.png
+1371194402000 550 7987b67de40b91eeaa41c779bb00fdaa497c9b3c /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/layout/name_change.xml
+1371196387000 2084 2d350be887d82084322729373bf7c07a705ba6e5 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-mdpi/ic_launcher.png
+1371196387000 3236 8437e0ae5f3b794e595014ef69419449baa6a965 /Users/demouser/Desktop/Android/studio-git/BopWithFriends/build/res/all/release/drawable-hdpi/ic_launcher.png
